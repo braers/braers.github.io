@@ -31,9 +31,17 @@ body {font-family: "Lato", sans-serif}
 
 <!-- Page content -->
 <div class="w3-content w3-dark-grey" style="max-width:2000px;margin-top:46px">
-
-    <div>
-        <img src="images/logga_with_alpha.png" style="width:70%; display: block; margin-left:auto; margin-right:auto">
+    
+    <!-- Audio element -->
+    <audio id="sound1" src="sound/BrarsPublik.mp3" preload="auto"></audio>
+    
+    <!-- Audio button -->
+    <div>  
+        <button onclick="document.getElementById('sound1').play();" 
+        style="border: none; cursor: pointer; appearance: none; background-color: inherit; 
+        margin-left:auto; margin-right:auto; display: block">
+            <img src="images/logga_with_alpha.png">
+        </button>
     </div>
 
     <!-- The Band Section -->
