@@ -1,3 +1,32 @@
+.album {
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.polaroid {
+    margin: -1rem;
+    max-height: 9rem;
+    max-width: 40%;
+    flex: initial;
+    border: solid white 0.5rem;
+    box-shadow: 0.5rem 0.5rem 2rem 0.5rem #00000044;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    z-index: 50;
+}
+
+.about {
+    animation: fadeInFromBelow 1s both 1s;
+}
+
+.about > p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+
 @keyframes polaroid1 {
     from {
         opacity: 0;
