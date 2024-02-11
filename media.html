@@ -30,9 +30,14 @@
 <body>
     <!-- Header -->
     <div class="header">
-        <a href="./index.html">
-            <img src="logos/logga_with_alpha.png" aria-label="BRÄRS logo" class="logo"/>
-        </a>
+        <img src="logos/logga_with_alpha_smaller.png" aria-label="BRÄRS logo" class="logo" onclick="playAudio()"/>
+        <audio id="audio" src="./sound/BrarsPublik.mp3"></audio>
+        <script>
+            function playAudio() {
+                var audioElement = document.getElementById("audio");
+                audioElement.play();
+            }
+        </script>
     </div>
     <!-- Navbar -->
     <div class="navbar">
