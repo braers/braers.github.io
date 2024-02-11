@@ -51,6 +51,10 @@ a {
     text-decoration: none;
 }
 
+a.currentPage {
+    text-decoration: underline dashed;
+}
+
 a:hover {
     color: var(--brars-yellow);
     fill: var(--brars-yellow);
