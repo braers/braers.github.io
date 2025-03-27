@@ -1,2 +1,2 @@
 # braers.github.io
-Homepage for BRÄRS
+Homepage for BRÄRS.
