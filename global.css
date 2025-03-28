@@ -104,16 +104,16 @@ a:hover > svg {
 
 .logo {
     z-index: 999;
-    height: 12rem;
+    height: 14rem;
     margin-top: 0.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     transition: 0.2s;
 }
 
 .logo:hover {
     cursor: pointer;
-    height: 13rem;
-    margin-top: 0;
+    height: 15rem;
+    margin-top: -0.25rem;
     margin-bottom: 0.25rem;
     transition: 0.2s;
 }
