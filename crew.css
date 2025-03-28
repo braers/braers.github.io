@@ -13,6 +13,9 @@
     border: 0.3rem solid black;
 }
 
+.crewMember > h2 {
+    margin-left: 0.5rem;
+}
 .crewMember > p {
     padding-top: 0;
     margin: 0;
