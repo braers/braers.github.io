@@ -21,7 +21,6 @@ h1 {
     padding-right: 1.2rem;
     text-align: center;
     font-size: 2rem;
-    font-optical-sizing: auto;
     font-weight: 400;
     max-width: 40rem;
     font-family: "Racing Sans One", sans-serif;
@@ -31,7 +30,6 @@ h1 {
 h2 {
     margin: 0;
     font-size: 2rem;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-family: "Racing Sans One", sans-serif;
 }
@@ -40,7 +38,6 @@ p {
     margin: 0;
     font-size: 1.2rem;
     font-family: "Abel", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     max-width: 28rem;
     background-color: black;
@@ -121,7 +118,6 @@ a:hover > svg {
 .navbar {
     font-size: 1.5rem;
     font-family: "Racing Sans One", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     padding: 0.5rem;
     display: flex;
