@@ -17,12 +17,13 @@ body {
 
 h1 {
     padding: 0.8rem;
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
-    max-width: 40rem;
+    width: 100%;
+    max-width: 28rem;
     font-family: "Racing Sans One", sans-serif;
     background-color: black;
 }
@@ -35,10 +36,10 @@ h2 {
 }
 
 p {
-    margin: 0;
     font-size: 1.2rem;
     font-family: "Abel", sans-serif;
     font-weight: 400;
+    width: 100%;
     max-width: 28rem;
     background-color: black;
 }

@@ -5,9 +5,16 @@
     animation: fadeInFromBelow 1s both;
 }
 
+.crew > h1 {
+    padding-left: 0.675rem;
+    padding-right: 0.675rem;
+    margin: 0;
+}
+
 .crewMember {
     width: 100%;
     max-width: 40rem;
+    padding-right: 0.75rem;
     display: inline;
     background-color: black;
     border: 0.3rem solid black;
