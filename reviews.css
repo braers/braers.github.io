@@ -1,3 +1,16 @@
+.review-image {
+    margin-top: 2rem;
+    max-height: 20rem;
+    max-width: 100%;
+    border: solid white 0.5rem;
+    box-shadow: 0.5rem 0.5rem 2rem 0.5rem #00000044;
+    box-sizing: border-box;
+    animation-name: reviewImage;
+    animation-delay: 1.25s;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
 .reviews > h1 {
     animation: fadeInFromBelow 1s;
 }
@@ -15,4 +28,15 @@
     margin-top: 0.75rem;
     float: right;
     font-style: italic;
+}
+
+@keyframes reviewImage {
+    from {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
