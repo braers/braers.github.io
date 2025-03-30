@@ -126,7 +126,6 @@ a:hover > svg {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2.5rem;
     color: black;
     background-color: #ecab3e;
     border-top: solid black 0.35rem;
@@ -136,7 +135,14 @@ a:hover > svg {
     padding-left: calc(0.5rem + 100vw - 100%);
 }
 
-.navbar > a {
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 26rem;
+}
+
+.navbar-links > a {
     color: black;
 }
 
@@ -148,6 +154,7 @@ a:hover > svg {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     color: #fff;
 }
 
