@@ -1,119 +1,152 @@
 <!DOCTYPE html5>
 <html lang="en">
-<head>
+  <head>
     <title>BRÄRS</title>
-    <link rel="icon" type="image/x-icon" href="./logos/favicon32.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="BRÄRS, music, brass music, brass, party, dance, pop, pop music">
+    <link rel="icon" type="image/x-icon" href="./logos/favicon32.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="BRÄRS, music, brass music, brass, party, dance, pop, pop music"
+    />
     <meta name="theme-color" content="#000" />
 
     <!-- Tags for defining which image is shown when page is shared social medias -->
-    <meta property="og:image" content="https://brars.se/logos/logga_with_alpha.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1920">
-    <meta property="og:image:height" content="1920">
+    <meta
+      property="og:image"
+      content="https://brars.se/logos/logga_with_alpha.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="1920" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.brars.se/"/>
+    <meta property="og:url" content="https://www.brars.se/" />
     <meta property="og:title" content="BRÄRS" />
-    <meta property="og:description" content="Get ready to hear your favorite songs played in the style of a hundred man military brass band on steroids." />
+    <meta
+      property="og:description"
+      content="Get ready to hear your favorite songs played in the style of a hundred man military brass band on steroids."
+    />
 
     <!-- Local stylesheets -->
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="reviews.css">
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="reviews.css" />
 
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Racing+Sans+One&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Racing+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Header -->
     <div class="header">
-        <img src="logos/logga_horisontell.png" aria-label="BRÄRS logo" class="logo" onclick="playAudio()"/>
-        <audio id="audio" src="./sound/RoundShort.mp3"></audio>
-        <script>
-            function playAudio() {
-                var audioElement = document.getElementById("audio");
-                audioElement.play();
-            }
-        </script>
+      <img
+        src="logos/logga_horisontell.png"
+        aria-label="BRÄRS logo"
+        class="logo"
+        onclick="playAudio()"
+      />
+      <audio id="audio" src="./sound/RoundShort.mp3"></audio>
+      <script>
+        function playAudio() {
+          var audioElement = document.getElementById("audio");
+          audioElement.play();
+        }
+      </script>
     </div>
 
     <!-- Navbar -->
     <div class="navbar">
-        <div class="navbar-links">
-            <a href="./index.html">About</a>
-            <a href="./crew.html">Crew</a>
-            <a href="./reviews.html" class="currentPage">Reviews</a>
-            <a href="./media.html">Media</a>
-        </div>
+      <div class="navbar-links">
+        <a href="./index.html">About</a>
+        <a href="./crew.html">Crew</a>
+        <a href="./reviews.html" class="currentPage">Reviews</a>
+        <a href="./media.html">Media</a>
+      </div>
     </div>
 
     <!-- Reviews -->
     <div class="content reviews">
-        <h1>
-            User <span class="brarsYellow">reviews</span>
-        </h1>
-        <p style="animation-name: fadeInFromBelow; animation-delay: 0.5s">
-            "Jag tror det var såhär tonårstjejer kände<br/>när dom såg Elvis Presley"
-            <br>
-            <span class="quote">- Åskådare på VilleVallas jubileum</span>
-        </p>
-        <p style="animation-name: fadeInFromBelow; animation-delay: 0.5s">
-            "Såhär glad har jag inte varit på länge"
-            <br>
-            <span class="quote">- Åskådare under Kulturnatten</span>
-        </p>
-        <p style="animation-name: fadeInFromBelow; animation-delay: 0.6s">
-            "Jävla bögband"
-            <br>
-            <span class="quote">- Fröken Björn</span>
-        </p>
-        <p style="animation-name: fadeInFromBelow; animation-delay: 0.7s">
-            "Självklart! Olof och jag skickat en kommentar imorgon!"
-            <br>
-            <span class="quote">- Elite Grand Hotel Norrköping</span>
-        </p>
-        <p style="animation-name: fadeInFromBelow; animation-delay: 0.8s">
-            "<strong>Nästan</strong> värt att åka från Stockholm för att se!"
-            <br/>
-            <span class="quote">- Smultronblomman</span>
-        </p>
-        <p style="animation-name: fadeInFromBelow; animation-delay: 0.9s">
-            "Spelar de inte på mitt bröllop så blir det inget!"
-            <br>
-            <span class="quote">- Bröllopsgäst</span>
-        </p>
-        <img
-            class="review-image"
-            src="images/villevallarodebaronen.JPG"
-            alt="Gig image with Fröken"
-        />
+      <h1>User <span class="brarsYellow">reviews</span></h1>
+      <p style="animation-name: fadeInFromBelow; animation-delay: 0.5s">
+        "Jag tror det var såhär tonårstjejer kände<br />när dom såg Elvis
+        Presley"
+        <br />
+        <span class="quote">- Åskådare på VilleVallas jubileum</span>
+      </p>
+      <p style="animation-name: fadeInFromBelow; animation-delay: 0.5s">
+        "Såhär glad har jag inte varit på länge"
+        <br />
+        <span class="quote">- Åskådare under Kulturnatten</span>
+      </p>
+      <p style="animation-name: fadeInFromBelow; animation-delay: 0.6s">
+        "Jävla bögband"
+        <br />
+        <span class="quote">- Fröken Björn</span>
+      </p>
+      <p style="animation-name: fadeInFromBelow; animation-delay: 0.7s">
+        "Självklart! Olof och jag skickat en kommentar imorgon!"
+        <br />
+        <span class="quote">- Elite Grand Hotel Norrköping</span>
+      </p>
+      <p style="animation-name: fadeInFromBelow; animation-delay: 0.8s">
+        "<strong>Nästan</strong> värt att åka från Stockholm för att se!"
+        <br />
+        <span class="quote">- Smultronblomman</span>
+      </p>
+      <p style="animation-name: fadeInFromBelow; animation-delay: 0.9s">
+        "Spelar de inte på mitt bröllop så blir det inget!"
+        <br />
+        <span class="quote">- Bröllopsgäst</span>
+      </p>
+      <img
+        class="review-image"
+        src="images/villevallarodebaronen.JPG"
+        alt="Gig image with Fröken"
+      />
     </div>
 
     <!-- Footer -->
     <footer>
-        <div class="contact">
-            <a class="contactWay" href="mailto:brars.band@gmail.com">
-                <svg class="svgToWhite" width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" aria-label="Mail logo">
-                    <image href="./logos/email.svg" height="100%" width="100%" />
-                </svg>
-                <p>brars.band@gmail.com</p>
-            </a>
-            <a class="contactWay" href="tel:+46736143063">
-                <svg class="svgToWhite" width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" aria-label="Phone logo">
-                    <image href="./logos/phone.svg" height="100%" width="100%" />
-                </svg>
-                <p>+46 73 614 30 63</p>
-            </a>
-        </div>
-        <a href="https://www.instagram.com/brars_band?igsh=dDNuOGx2ZTQxcDdh">
-            <svg class="svgToWhite" width="3rem" height="3rem" xmlns="http://www.w3.org/2000/svg" aria-label="Instagram logo">
-                <image href="./logos/instagram.svg" height="100%" width="100%" />
-            </svg>
+      <div class="contact">
+        <a class="contactWay" href="mailto:brars.band@gmail.com">
+          <svg
+            class="svgToWhite"
+            width="2rem"
+            height="2rem"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-label="Mail logo"
+          >
+            <image href="./logos/email.svg" height="100%" width="100%" />
+          </svg>
+          <p>brars.band@gmail.com</p>
         </a>
+        <a class="contactWay" href="tel:+46736143063">
+          <svg
+            class="svgToWhite"
+            width="2rem"
+            height="2rem"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-label="Phone logo"
+          >
+            <image href="./logos/phone.svg" height="100%" width="100%" />
+          </svg>
+          <p>+46 73 614 30 63</p>
+        </a>
+      </div>
+      <a href="https://www.instagram.com/brars_band?igsh=dDNuOGx2ZTQxcDdh">
+        <svg
+          class="svgToWhite"
+          width="3rem"
+          height="3rem"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-label="Instagram logo"
+        >
+          <image href="./logos/instagram.svg" height="100%" width="100%" />
+        </svg>
+      </a>
     </footer>
-</body>
+  </body>
 </html>
-
