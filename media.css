@@ -69,16 +69,26 @@
     max-width: 100%;
 }
 
+.audio-table-player {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    justify-items: center;
+}
+
 .audio-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
     border: 0.3rem solid black;
     padding: 1rem;
-    width: 100%;
+    width: 80%;
     max-width: 1200px;
     margin: 1.25rem auto 0 auto;
 }
 
-.audio-player p { margin: 0.5rem 0; text-align:center; word-wrap: break-word; overflow-wrap: break-word; }
+.audio-player p { margin: 0.5rem 0; text-align:center; word-wrap: break-word; overflow-wrap: break-word;}
 
 .audio-player audio { width: 100%; margin-top: 0.75rem; }
 
@@ -127,6 +137,7 @@
 .media-item.large .yt-card { height: 18rem; }
 .media-item.extraLarge .yt-card { height: 22rem; }
 .media-item.vertical .yt-card { height: 28rem; }
+.media-item.verticalSmall .yt-card { height: 22rem; }
 
 /* Portrait / vertical specific card */
 .yt-card.vertical { height: 34rem; max-height: 80vh; }
@@ -153,7 +164,12 @@
     .media-item.large .yt-card { height: 11rem; }
     .media-item.extraLarge .yt-card { height: 13rem; }
     .media-item.vertical .yt-card { height: 16rem; }
+    .media-item.verticalSmall .yt-card { height: 13rem; }
     .yt-card.vertical { height: 50vh; max-height: 50vh; }
+    .audio-table-player {
+        grid-template-columns: 1fr;
+    }
+    .audio-player { width: 100%; }
 }
 .yt-close-inline {
     position: absolute;
